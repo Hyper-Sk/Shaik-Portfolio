@@ -5,13 +5,13 @@ https://dribbble.com/
 https://github.com/
 
 .home__name
-John Smith
+Shaik sohail
 
 .home__education
-Visual Designer
+Web developer
 
 .home__description
-I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
+I'm creative Web developer based in Hyderabad, and I'm very passionate and dedicated to my work.
 
 .home__scroll-name
 Scroll Down
@@ -23,7 +23,7 @@ My introduction
 
 .about__title | .about__subtitle
 Experience
-8 Years Working
+1 Years Working
 
 Completed
 48 + Projects
