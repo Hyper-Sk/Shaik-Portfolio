@@ -12,7 +12,7 @@ function Header() {
       header.classList.remove('show-header-shadow')
     }
   })
-  const [toggle, setToggle] = React.useState(false)
+  const [toggle, setToggle] = React.useState(true)
   function toggleHandle() {
     setToggle(prevToggle => !prevToggle)
   }
