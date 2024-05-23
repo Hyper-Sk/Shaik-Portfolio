@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/css/main.20d2004d.css",
-    "main.js": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/js/main.ddf2ffaa.js",
-    "static/media/about.jpg": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/about.466eb606ee09fe0c7b69.jpg",
-    "static/media/sign-logo.png": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/sign-logo.ef4aefd6943b705d7e3b.png",
-    "static/media/SHAIK_RESUME.pdf": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/SHAIK_RESUME.ad0d82971111494c8004.pdf",
-    "static/media/testimonial3.png": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/work2.jpg": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/testimonial2.png": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
-    "static/media/work4.jpg": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
-    "static/media/testimonial1.png": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
-    "index.html": "/https//:hyper-sk.github.io/Shaik-Portfolio/index.html",
-    "main.20d2004d.css.map": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/css/main.20d2004d.css.map",
-    "main.ddf2ffaa.js.map": "/https//:hyper-sk.github.io/Shaik-Portfolio/static/js/main.ddf2ffaa.js.map"
+    "main.css": "/https//:hyper-sk.github.io/portfolio/static/css/main.c2d87681.css",
+    "main.js": "/https//:hyper-sk.github.io/portfolio/static/js/main.045af48b.js",
+    "static/media/about.jpg": "/https//:hyper-sk.github.io/portfolio/static/media/about.466eb606ee09fe0c7b69.jpg",
+    "static/media/sign-logo.png": "/https//:hyper-sk.github.io/portfolio/static/media/sign-logo.ef4aefd6943b705d7e3b.png",
+    "static/media/SHAIK_RESUME.pdf": "/https//:hyper-sk.github.io/portfolio/static/media/SHAIK_RESUME.ad0d82971111494c8004.pdf",
+    "static/media/testimonial3.png": "/https//:hyper-sk.github.io/portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/work2.jpg": "/https//:hyper-sk.github.io/portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/testimonial2.png": "/https//:hyper-sk.github.io/portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/work4.jpg": "/https//:hyper-sk.github.io/portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/https//:hyper-sk.github.io/portfolio/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/https//:hyper-sk.github.io/portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/https//:hyper-sk.github.io/portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/testimonial1.png": "/https//:hyper-sk.github.io/portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/https//:hyper-sk.github.io/portfolio/index.html",
+    "main.c2d87681.css.map": "/https//:hyper-sk.github.io/portfolio/static/css/main.c2d87681.css.map",
+    "main.045af48b.js.map": "/https//:hyper-sk.github.io/portfolio/static/js/main.045af48b.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d2004d.css",
-    "static/js/main.ddf2ffaa.js"
+    "static/css/main.c2d87681.css",
+    "static/js/main.045af48b.js"
   ]
 }
