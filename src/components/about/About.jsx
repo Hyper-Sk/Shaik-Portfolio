@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import Info from './Info'
 import aboutImg from './../../assets/about.jpg'
-import CV from './../../assets/Shaik_Sohail_cv.pdf'
+import CV from './../../assets/SHAIK_RESUME.pdf'
 
 function About() {
     return (
@@ -13,7 +13,7 @@ function About() {
                 <img src={aboutImg} alt="about img" className="about__img" />
                 <div className="about__data">
                     <Info />
-                    <p className="about__description" > Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX. Skilled at writing well-designed, testable and efficient code using current best practices in Web development. Fast learner, hard worker and team player.
+                    <p className="about__description" > Front End developer with a passion for agile project management and problem-solving. Proficient in software testing methodologies and skilled in effective communication with cross-functional teams. Adept at team management and fostering collaboration in fast-paced environments. Demonstrated adaptability in tackling diverse challenges while maintaining a focus on user experience and responsive design principles. Possesses strong JavaScript skills and expertise in web design, including React state management and API handling. Known for exceptional time management abilities, ensuring timely delivery of high-quality projects.
                     </p>
                     <a download='' href={CV} className="button button-flex">
                         Download CV

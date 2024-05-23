@@ -11,12 +11,14 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Work from './components/work/Work';
+import TopHeader from './components/top-header/TopHeader';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="main">
+        <TopHeader />
         <Home />
         <About />
         <Skills />

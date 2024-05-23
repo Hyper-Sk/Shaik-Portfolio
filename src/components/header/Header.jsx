@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import logo from './../../assets/sign-logo.png'
 
 function Header() {
   // ************ background showdow of header *********** 
@@ -20,7 +21,9 @@ function Header() {
   return (
     <header className='header'>
       <nav className='nav container'>
-        <a href='index.html' className='nav__logo'>Shaik Sohail</a>
+        <a href='index.html' className='nav__logo'>
+          <img src={logo} alt="signature" />
+        </a>
         <div className={toggle ? 'nav__menu' : 'nav__menu show-menu'}>
           <ul className='nav__list grid'>
             <li className='nav__item'>

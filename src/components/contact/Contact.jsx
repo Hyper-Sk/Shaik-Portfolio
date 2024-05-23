@@ -28,7 +28,7 @@ function Contact() {
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
+                            <span className="contact__card-data">sohailshaiksk12345@gmail.com</span>
                             <a href="mailto:sohailshaiksk12345@gmail.com" target='_blank' className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon "></i></a>
                         </div>
 
@@ -56,6 +56,7 @@ function Contact() {
                                 Name
                             </label>
                             <input
+                                required
                                 type="text"
                                 name='name'
                                 className='contact__form-input'
@@ -67,6 +68,7 @@ function Contact() {
                                 Email
                             </label>
                             <input
+                                required
                                 type="email"
                                 name='email'
                                 className='contact__form-input'
@@ -78,6 +80,7 @@ function Contact() {
                                 Project
                             </label>
                             <textarea
+                                required
                                 name="project"
                                 cols="30"
                                 rows="10"

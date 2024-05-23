@@ -29,7 +29,7 @@ function Qualification() {
 
                             <div>
                                 <h3 className="qualification__title">10th Standard</h3>
-                                <span className="qualification__subtitle">Rose Dale High School</span>
+                                <span className="qualification__subtitle">Secondary School Certificate (SSC)</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2018
                                 </div>
@@ -51,7 +51,7 @@ function Qualification() {
 
                             <div>
                                 <h3 className="qualification__title">Intermediate</h3>
-                                <span className="qualification__subtitle">Gowtham Junior College</span>
+                                <span className="qualification__subtitle">Civis, Economics, Commerce (CEC)</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i> 2018 - 2020
                                 </div>
@@ -63,9 +63,9 @@ function Qualification() {
 
                             <div>
                                 <h3 className="qualification__title">Bachlor's</h3>
-                                <span className="qualification__subtitle">CAT Degree & PG college</span>
+                                <span className="qualification__subtitle">Bachlor's in Commerce (Computer's Application)</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>2023 - present
+                                    <i className="uil uil-calendar-alt"></i> 2020 - 2023
                                 </div>
                             </div>
 
@@ -89,15 +89,15 @@ function Qualification() {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Not working</h3>
+                                <h3 className="qualification__title">Crammaze Inc </h3>
                                 <span className="qualification__subtitle">Hyderabad</span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calendar-alt"></i>Present
+                                    <i className="uil uil-calendar-alt"></i> May 2023 - Present
                                 </div>
                             </div>
                         </div>
 
-                        <div className="qualification__data">
+                        {/* <div className="qualification__data">
 
                             <div>
                                 <h3 className="qualification__title">Looking for Job</h3>
@@ -114,10 +114,7 @@ function Qualification() {
                             </div>
                             <div></div>
 
-                        </div>
-
-
-
+                        </div> */}
                     </div>
                 </div>
             </div>

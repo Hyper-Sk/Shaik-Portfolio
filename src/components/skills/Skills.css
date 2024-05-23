@@ -31,14 +31,16 @@
     display: flex;
     column-gap: 0.5rem;
 }
-.skills .bx-badge-check{
-    font-size: 1rem;
-    color: var(--title-color);
+.skills__data i{
+    font-size: 1.2rem;
+    /* color: var(--title-color); */
+    color: var(--skills-icon-color);
 }
 .skills__name{
    font-size: var(--normal-font-size);
    font-weight: var(--font-medium);
    line-height: 18px;
+   text-align: start;
 }
 .skills__level{
     font-size: var(--tiny-font-size);

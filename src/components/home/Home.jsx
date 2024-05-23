@@ -9,11 +9,8 @@ function Home() {
         <div className='home section' id='home'>
             <div className="home__container grid container">
                 <div className="home__content grid">
-
                     <Social />
-
                     <div className="home_img"></div>
-
                     <Data />
                 </div>
                 <Scroll />
