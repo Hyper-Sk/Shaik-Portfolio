@@ -1,4 +1,5 @@
 import './index.css';
+import './canvas.js'
 
 import Header from './components/header/Header';
 import Home from './components/home/Home';
@@ -14,7 +15,12 @@ import Work from './components/work/Work';
 import TopHeader from './components/top-header/TopHeader';
 
 function App() {
+
+
+  // Animation for canvas 
+  
   return (
+    <>
     <div className="App">
       <Header />
       <div className="main">
@@ -31,6 +37,7 @@ function App() {
         <ScrollUp />
       </div>
     </div>
+    </>
   );
 }
 

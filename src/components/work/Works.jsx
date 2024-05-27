@@ -57,6 +57,7 @@ function Works() {
                         <WorksItem
                             item={item}
                             id={item.id}
+                            URL={item.URL}
                             image={item.image}
                             title={item.title}
                         />

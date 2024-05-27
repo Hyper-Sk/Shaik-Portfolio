@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jacquard+12&display=swap');
@@ -7,67 +12,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 
-:root{
-  --header-height:3rem;
-
+:root {
+  --header-height: 3rem;
   /* ******* color *****  */
 
-  --hue :0;
-  --sat:0%;
-  --link-color:rgba(0,0,0,0.6);
-  --link-color-dark:rgba(0,0,0,0.9);
-  --title-color:rgb(0,0,0,0.9);
-  --title-color-dark:rgba(0,0,0,1);
-  --text-color:rgba(0,0, 0, 0.6);
-  --body-color:hsl(var(--hue),var(--sat),96%);
-  --container-color:#fff;
-  --skills-icon-color:rgba(0,0, 0, 0.6);
+  --hue: 0;
+  --sat: 0%;
+  --link-color: rgba(0, 0, 0, 0.6);
+  --link-color-dark: rgba(0, 0, 0, 0.9);
+  --title-color: rgb(0, 0, 0, 0.9);
+  --title-color-dark: rgba(0, 0, 0, 1);
+  --text-color: rgba(0, 0, 0, 0.6);
+  --body-color: hsl(var(--hue), var(--sat), 96%);
+  /* --body-color:black; */
+  --container-color: #fff;
+  --skills-icon-color: rgba(0, 0, 0, 0.6);
   ;
 
   /* ******* Font and typography *******  */
-  --big-font-size:3.5rem;
-  --h1-font-size:2.25rem;
-  --h2-font-size:1.5rem;
-  --h3-font-size:1.25rem;
-  --normal-font-size:1rem;
-  --small-font-size:0.9rem;
-  --tiny-font-size:0.625rem;
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.9rem;
+  --tiny-font-size: 0.625rem;
 
   /* ******** font weight *********  */
-  --font-normal:400;
-  --font-medium:500;
-  --font-semi-bold:600;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
 
   /* *********** Margenes bottom ************  */
-  --mb-0-25:0.25rem;
-  --mb-0-5:0.5rem;
-  --mb-0-75:0.75rem;
-  --mb-1:1rem;
-  --mb-1-5:1.5rem;
-  --mb-2:2rem;
-  --mb-2-5:2.5rem;
-  --mb-3:3rem;
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
 
   /* ********* z index *******  */
-  --z-tooltip:10;
-  --z-fixed:100;
-  --z-modal:1000;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
 
 }
 
 /* ******** responsive Font ********  */
 
-@media screen and (max-width:992px)  {
- :root{
-   --big-font-size:2.75rem;
-   --h1-font-size:1.5rem;
-   --h2-font-size:1.25rem;
-   --h3-font-size:1rem;
-   --normal-font-size:0.938rem;
-   --small-font-size:0.813rem;
-   --smaller-font-size:0.75rem;
- }
+@media screen and (max-width:992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
 }
+
 /* ************ Base ***********  */
 
 * {
@@ -75,63 +81,90 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-body{
-  font-family: "Chakra Petch", sans-serif;
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--body-color);
+
+  /* background-image: url('./../src/assets/work2.jpg'); */
+  
 }
-body,button,input,textarea{ font-family: "Chakra Petch", sans-serif;
+
+body,
+button,
+input,
+textarea {
+  font-family: "Inter", sans-serif;
 }
-body{
+
+body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
-ul{
+
+ul {
   list-style: none;
 }
-a{
+
+a {
   text-decoration: none;
 }
-button{
+
+button {
   cursor: pointer;
   border: none;
   outline: none;
 }
-img{
+
+img {
   max-width: 100%;
-  height:auto;
+  height: auto;
 }
+
 /* ************** Re-usable Css Classes ************  */
 
-.section{
+.section {
   padding: 6rem 0 2rem;
 }
-.section_title{
+
+.section_title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
-.section__subtitle{
+
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
-.section__title,.section__subtitle{
- text-align: center;
+
+.section__title,
+.section__subtitle {
+  text-align: center;
 }
+
 /* *************** Layout **************  */
-.container{
+.container {
   max-width: 968px;
   margin-inline: auto;
 }
-.grid{
+
+.grid {
   display: grid;
-  gap:1.5rem;
+  gap: 1.5rem;
 }
+
 /* ************* Button ************  */
 .button {
   display: inline-block;
@@ -141,49 +174,66 @@ img{
   border-radius: 1rem;
   font-weight: var(--font-m);
 }
-.button:hover{
+
+.button:hover {
   background-color: var(--title-color-dark);
 }
-.button__icon{
+
+.button__icon {
   margin-left: var(--mb-0-5);
 }
-.button--flex{
+
+.button--flex {
   display: inline-flex;
   align-items: center;
 }
+
 /* ************** Break Points ****************  */
 /* ------ for large devices -------  */
 @media screen and (max-width:992px) {
-  .container{
-    margin-inline: var(--mb-1-5) ;
+  .container {
+    margin-inline: var(--mb-1-5);
   }
-  .button{
+
+  .button {
     padding: 1rem 1.75rem;
   }
-  .button__icon{
+
+  .button__icon {
     width: 22px;
     height: 22px;
   }
-  
+
 }
+
 @media screen and (max-width:768px) {
-  
-  body{
-    margin: 0 0 var(--header-height) 0 ;
+
+  body {
+    margin: 0 0 var(--header-height) 0;
   }
-  .section{
+
+  .section {
     padding: 2rem 0 4rem;
   }
-  .section__subtitle{
+
+  .section__subtitle {
     margin-bottom: var(--mb-3);
   }
 }
-@media screen and (max-width:576px) {
-  
-}
+
+@media screen and (max-width:576px) {}
+
 /* ------ for small devices -------  */
 @media screen and (max-width:350px) {
-  .container{
-    margin-inline: var(--mb-1) ;
+  .container {
+    margin-inline: var(--mb-1);
   }
+}
+
+
+/* animation css  */
+
+
+canvas {
+  display: block;
 }
