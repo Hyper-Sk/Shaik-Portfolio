@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Shaik-Portfolio/static/css/main.283f60f3.css",
-    "main.js": "/Shaik-Portfolio/static/js/main.8d8406c5.js",
-    "static/media/about.jpg": "/Shaik-Portfolio/static/media/about.466eb606ee09fe0c7b69.jpg",
+    "main.css": "/Shaik-Portfolio/static/css/main.6fa25147.css",
+    "main.js": "/Shaik-Portfolio/static/js/main.251e10e7.js",
+    "static/media/work1.png": "/Shaik-Portfolio/static/media/work1.d75c19dc5fa80cffe250.png",
     "static/media/sign-logo.png": "/Shaik-Portfolio/static/media/sign-logo.ef4aefd6943b705d7e3b.png",
     "static/media/SHAIK_RESUME.pdf": "/Shaik-Portfolio/static/media/SHAIK_RESUME.ad0d82971111494c8004.pdf",
+    "static/media/info.jpeg": "/Shaik-Portfolio/static/media/info.f027070063b52e0ae852.jpeg",
     "static/media/testimonial3.png": "/Shaik-Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/suit.jpeg": "/Shaik-Portfolio/static/media/suit.789c1ed81c89fbf0ed1d.jpeg",
     "static/media/work2.jpg": "/Shaik-Portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
     "static/media/testimonial2.png": "/Shaik-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/work4.jpg": "/Shaik-Portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
     "static/media/work5.jpg": "/Shaik-Portfolio/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/Shaik-Portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
     "static/media/work3.jpg": "/Shaik-Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
     "static/media/testimonial1.png": "/Shaik-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Shaik-Portfolio/index.html",
-    "main.283f60f3.css.map": "/Shaik-Portfolio/static/css/main.283f60f3.css.map",
-    "main.8d8406c5.js.map": "/Shaik-Portfolio/static/js/main.8d8406c5.js.map"
+    "main.6fa25147.css.map": "/Shaik-Portfolio/static/css/main.6fa25147.css.map",
+    "main.251e10e7.js.map": "/Shaik-Portfolio/static/js/main.251e10e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.283f60f3.css",
-    "static/js/main.8d8406c5.js"
+    "static/css/main.6fa25147.css",
+    "static/js/main.251e10e7.js"
   ]
 }
