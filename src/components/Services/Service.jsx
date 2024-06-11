@@ -98,7 +98,7 @@ function Service() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Ui/Ux <br /> Development</h3>
+                        <h3 className="services__title">Application <br /> Development</h3>
                     </div>
 
                     <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon" onClick={() => toggleHandle(2)}></i></span>
@@ -106,7 +106,7 @@ function Service() {
                     <div className={toggle === 2 ? 'services__modal active-modal' : 'services__modal'}>
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={() => toggleHandle(0)}></i>
-                            <h3 className="services__modal-title">Ui/Ux Development</h3>
+                            <h3 className="services__modal-title">Application Development</h3>
                             <p className="services__modal-description">Service with more than 1+ year of experience. Providing quality work to clients and companies.</p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -118,7 +118,7 @@ function Service() {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle"></i>
                                     <p className="services__modal-info">
-                                        Web page development.
+                                        Application Development.
                                     </p>
                                 </li>
                                 <li className="services__modal-service">

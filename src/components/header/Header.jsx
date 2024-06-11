@@ -1,23 +1,35 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Header.css'
-import logo from './../../assets/sign-logo.png'
+import logo_light from './../../assets/sign-logo.png'
+import logo_dark from './../../assets/logo-dark.png'
 
 function Header() {
+  
+  const [toggle, setToggle] = React.useState(true)
+  function toggleHandle() {
+    setToggle(prevToggle => !prevToggle)
+  }
+  const [active, setActive] = React.useState('#home')
+
+  let logo;
+    if (window.innerWidth > 768) {
+      logo = logo_light
+    } else {
+      logo = logo_dark
+    }
+
   // ************ background showdow of header *********** 
   window.addEventListener('scroll', () => {
     const header = document.querySelectorAll('.header')[0]
     // console.log(header)
+
     if (window.scrollY >= 80) {
       header.classList.add('show-header-shadow')
     } else {
       header.classList.remove('show-header-shadow')
     }
   })
-  const [toggle, setToggle] = React.useState(true)
-  function toggleHandle() {
-    setToggle(prevToggle => !prevToggle)
-  }
-  const [active, setActive] = React.useState('#home')
+
   return (
     <header className='header'>
       <nav className='nav container'>
