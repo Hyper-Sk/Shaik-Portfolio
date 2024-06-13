@@ -1,25 +1,40 @@
 {
   "files": {
-    "main.css": "/Shaik-Portfolio/static/css/main.6fa25147.css",
-    "main.js": "/Shaik-Portfolio/static/js/main.251e10e7.js",
+    "main.css": "/Shaik-Portfolio/static/css/main.fa35a1a9.css",
+    "main.js": "/Shaik-Portfolio/static/js/main.ccdb3875.js",
     "static/media/work1.png": "/Shaik-Portfolio/static/media/work1.d75c19dc5fa80cffe250.png",
+    "static/media/react.png": "/Shaik-Portfolio/static/media/react.2f2532db663fd5ec5f95.png",
     "static/media/sign-logo.png": "/Shaik-Portfolio/static/media/sign-logo.ef4aefd6943b705d7e3b.png",
+    "static/media/mysql.png": "/Shaik-Portfolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/node.png": "/Shaik-Portfolio/static/media/node.290f630040630c5948b6.png",
+    "static/media/materialui.png": "/Shaik-Portfolio/static/media/materialui.5955eca0663eaeb9b8d6.png",
+    "static/media/typescript.png": "/Shaik-Portfolio/static/media/typescript.239bcaac755341c67add.png",
+    "static/media/logo-dark.png": "/Shaik-Portfolio/static/media/logo-dark.312ae6f2616e266610e3.png",
+    "static/media/tailwind.png": "/Shaik-Portfolio/static/media/tailwind.3549d9e451d7abb96934.png",
+    "static/media/jquery.png": "/Shaik-Portfolio/static/media/jquery.5218d846e86fbcafcc5d.png",
+    "static/media/php.png": "/Shaik-Portfolio/static/media/php.b59deec830f215d303b4.png",
     "static/media/SHAIK_RESUME.pdf": "/Shaik-Portfolio/static/media/SHAIK_RESUME.ad0d82971111494c8004.pdf",
+    "static/media/html.png": "/Shaik-Portfolio/static/media/html.1d7b133e22ffe4829da6.png",
     "static/media/info.jpeg": "/Shaik-Portfolio/static/media/info.f027070063b52e0ae852.jpeg",
     "static/media/testimonial3.png": "/Shaik-Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/suit.jpeg": "/Shaik-Portfolio/static/media/suit.789c1ed81c89fbf0ed1d.jpeg",
+    "static/media/python.png": "/Shaik-Portfolio/static/media/python.f1a07429fcf04073a41e.png",
     "static/media/work2.jpg": "/Shaik-Portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
     "static/media/testimonial2.png": "/Shaik-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/work4.jpg": "/Shaik-Portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
     "static/media/work5.jpg": "/Shaik-Portfolio/static/media/work5.094ec4a2224db8908873.jpg",
     "static/media/work3.jpg": "/Shaik-Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/github.png": "/Shaik-Portfolio/static/media/github.a3e13fa8d534b2f8ccb0.png",
     "static/media/testimonial1.png": "/Shaik-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "static/media/css.png": "/Shaik-Portfolio/static/media/css.54ef36683e8a543e1d92.png",
+    "static/media/js.png": "/Shaik-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/bootstrap.png": "/Shaik-Portfolio/static/media/bootstrap.06122503bad110c67bd8.png",
     "index.html": "/Shaik-Portfolio/index.html",
-    "main.6fa25147.css.map": "/Shaik-Portfolio/static/css/main.6fa25147.css.map",
-    "main.251e10e7.js.map": "/Shaik-Portfolio/static/js/main.251e10e7.js.map"
+    "main.fa35a1a9.css.map": "/Shaik-Portfolio/static/css/main.fa35a1a9.css.map",
+    "main.ccdb3875.js.map": "/Shaik-Portfolio/static/js/main.ccdb3875.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fa25147.css",
-    "static/js/main.251e10e7.js"
+    "static/css/main.fa35a1a9.css",
+    "static/js/main.ccdb3875.js"
   ]
 }

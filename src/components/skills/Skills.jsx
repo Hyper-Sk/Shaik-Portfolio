@@ -31,14 +31,14 @@ function Skills() {
                         <img src={css} alt="tech-icon" />
                     </div>
                     <div className="skill__single">
-                        <img src={js} alt="tech-icon" />
+                        <img src={js} className='skill-rounded' alt="tech-icon" />
                     </div>
                     
                     <div className="skill__single">
                         <img src={rect} alt="tech-icon" />
                     </div>
                     <div className="skill__single">
-                        <img src={ts} alt="tech-icon" />
+                        <img src={ts} className='skill-rounded' alt="tech-icon" />
                     </div>
                     <div className="skill__single">
                         <img src={jquery} alt="tech-icon" />

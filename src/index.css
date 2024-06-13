@@ -170,13 +170,27 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  border: 2px solid var(--title-color);
+  padding: 1.1rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-m);
 }
-
+.button-outline{
+  display: inline-block;
+  border: 2px solid var(--title-color);
+  /* background-color: var(--title-color); */
+  color: var(--title-color);
+  padding: 1.1rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-m);
+  transition: .2s;
+}
 .button:hover {
   background-color: var(--title-color-dark);
+}
+.button-outline:hover {
+  background-color: var(--title-color);
+  color: white;
 }
 
 .button__icon {
@@ -196,6 +210,10 @@ img {
   }
 
   .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button-outline {
     padding: 1rem 1.75rem;
   }
 

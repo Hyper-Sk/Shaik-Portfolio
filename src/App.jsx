@@ -27,9 +27,9 @@ function App() {
         <TopHeader />
         <Home />
         <About />
+        <Qualification />
         <Skills />
         <Service />
-        <Qualification />
         <Work />
         <Testimonials />
         <Contact />
